@@ -6,17 +6,26 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--black-color);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    @include desctop {
+        margin-bottom: 50px;
+    }
 }
 
 &__list {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 &__item {
-    width: 170px;
-    height: 92px;
+width: calc((#{$percent} - 30px)/2);
+   @include tablet {
+       width: calc((#{$percent} - 60px)/3);
+   }
+        @include desctop {
+            width: calc((#{$percent} - 150px)/6);
+        }
 
 }
 

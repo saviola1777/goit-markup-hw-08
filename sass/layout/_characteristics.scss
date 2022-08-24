@@ -1,11 +1,20 @@
 .characteristics {
 &__list {
-    display: flex;
-    gap: 30px;
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+    
 }
 
 &__item {
-    width: 270px;
+    width: 100%;
+    @include tablet {
+            width: calc((#{$percent} - 30px)/2);
+        }
+    
+        @include desctop {
+            width: calc((#{$percent} - 90px)/4);
+        }
 }
 
 &__div {
@@ -16,16 +25,18 @@
     height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
-    margin-bottom: 30px;
+    
 }
 
 &__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    text-align: center;
     text-transform: uppercase;
     color: var(--black-color);
-    margin-bottom: 10px;
+    margin:30px 0 10px;
+
 }
 
 &__text {

@@ -3,6 +3,14 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+   
+    
+    &__address-join {
+        @include tablet {
+        display: flex;
+        text-align: center;
+         }
+    }
  
  @include mobile {
   max-width: 480px;  
