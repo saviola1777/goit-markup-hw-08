@@ -1,0 +1,46 @@
+.address { 
+&__logo {
+    display: block;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--color-curennt);
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+
+&__span {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--white-color);
+}
+
+&__item {
+    width: 231px;
+}
+
+&__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+&__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--white-color);
+    font-style: normal;
+}
+
+&__link {
+    font-style: normal;
+    display: block;
+    line-height: 1.71;
+    color: var(---second-color-rgba);
+    text-decoration: none;
+
+}
+}

@@ -1,0 +1,43 @@
+.join {
+    margin-left: 70px;
+    width: 200px;
+&__text {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--white-color);
+        margin-bottom: 20px;
+
+
+    }
+
+    &__list {
+        display: flex;
+        gap: 10px;
+    }
+
+   &__link {
+        display: flex;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        color: var(--white-color);
+        background-color: rgba(255, 255, 255, 0.1);
+        transition-property: color, background-color, box-shadow;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+   &__icon {
+        fill: currentColor;
+    }
+
+  &__link:hover {
+        background-color: var(--color-curennt);
+    }
+}
+

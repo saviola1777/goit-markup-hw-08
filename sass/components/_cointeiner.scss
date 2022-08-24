@@ -1,0 +1,21 @@
+.cointeiner {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+ 
+ @include mobile {
+  max-width: 480px;  
+ }   
+   
+@include tablet  {
+    max-width: 768px;}
+
+    @include desctop {
+    max-width: 1200px;
+}
+
+}
+
+
+

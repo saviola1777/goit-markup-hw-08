@@ -1,0 +1,8 @@
+.footer {
+    background: var(--footer-bacround);
+    padding: 60px 0;
+   &__cointeiner {
+            display: flex;
+            align-items: baseline;
+        }
+     }
