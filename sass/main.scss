@@ -2,12 +2,16 @@
 @import './utils/mixin' ;
 @import './base/reset' ;
 @import './utils/visually-hidden' ;
+@import './utils/is-hidden' ;
 @import './components/cointeiner' ;
 @import './components/section' ;
 @import './layout/header' ;
 @import './layout/nav' ;
 @import './layout/logo' ;
 @import './layout/contact' ;
+@import './components/menu-open' ;
+@import './layout/mobi-menu' ;
+@import './components/menu-close' ;
 @import './layout/main' ;
 @import './layout/section-service' ;
 @import './components/btn' ;

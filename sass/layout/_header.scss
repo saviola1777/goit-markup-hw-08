@@ -1,8 +1,24 @@
 .header {
+    
     border-bottom: 1px solid #ECECEC;
 &__cointeiner {
     display: flex;
+    padding-left: 15px;
+    padding-right: 22px;
+    @include mobile {
+            max-width: 480px;
+            height: 60px;
+        }
+    
+        @include tablet {
+            max-width: 768px;
+        }
+    
+        @include desctop {
+            max-width: 1200px;
+        }
 }
+ 
 }
 
 

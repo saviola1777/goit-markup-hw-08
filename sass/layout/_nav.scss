@@ -1,5 +1,9 @@
 .nav {
-    display: flex;
+     display: none;
+    
+    // @include desctop {
+    //     display: flex;
+    // }
 
 &__list {
     display: flex;

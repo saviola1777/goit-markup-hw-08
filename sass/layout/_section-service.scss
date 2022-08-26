@@ -1,21 +1,59 @@
 .section-service {
-    margin: 0 auto;
+margin: 0 auto;
+padding: 118px 0px;
+height: 100%;
+text-align: center; 
+background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-mobile.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+@include retine {
+background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-mobile-2x.jpg);
+}
+@include mobile {
+width: 100%;
+
+}
+    @include tablet {
+     width: 100%;   
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-tablet.jpg);
+    @include retine {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-tablet-2x.jpg);
+    }
+}
+    @include desctop {
+   
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-desctop.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-img.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 400px;
+    @include retine {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-desctop-2x.jpg);
+    }
+    }
 &__title {
-        width: 696px;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: var(--white-color);
-        margin: 0 auto;
+   width: 100%;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    margin: 0 auto 30px;
+    @include mobile {
+width: 360px;
+font-size: 26px;
+line-height: 1.6155;
+}
+    @include tablet {
+    width: 360px;
+    font-size: 26px;
+    line-height: 1.6155;
+        }
+    @include desctop {
+    font-size: 44px;
+    line-height: 1.36;
+     width: 696px;
+    }
     }
 
 }

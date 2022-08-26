@@ -12,10 +12,11 @@
 </head>
 <body> 
     <!--Шапка-->
-<!-- <header class="header"> 
+  <header class="header"> 
 <div class="cointeiner header__cointeiner"> 
+<a class="logo" href="#">Web<span class="logo__text">Studio</span></a>
 <nav class="nav"> 
- <a class="logo" href="#">Web<span class="logo__text">Studio</span></a>
+ 
     <ul class="nav__list"> 
     
     <li class="nav__item"><a href="./index.html" class="nav__link nav__link--current">Студія</a></li>
@@ -40,14 +41,53 @@
         </svg>
         +38 096 111 11 11 </a>
         </li>
-        </ul>   
+        </ul>
+                            
+                              <!--menu-open-->
+        <button class="menu-open" type="button">
+        <svg class="menu-open__icon" width="24" height="16">
+        <use href="./images/icons.svg.svg#icon-menu"></use>
+        </svg>
+        </button>
+        
+    </div>
+    <div class="mobi-menu is-hidden">
+        <div class="cointeiner mobi-menu__cointeiner">
+        <button class="menu-close" type="button">
+        <svg class="menu-close__icon-x" width="40" height="40">
+        <use href="./images/icons.svg.svg#icon-x"></use>
+        </svg>
+        </button>
+
+<nav class="mobi-menu__navigation"> 
+    <ul class="mobi-menu__list"> 
+    
+    <li class="mobi-menu__item"><a href="./index.html" class="mobi-menu__link mobi-menu__link--current  ">Студія</a></li>
+    <li class="mobi-menu__item"><a href="./portfolio.html" class="mobi-menu__link ">Портфоліо</a></li>
+    <li class="mobi-menu__item"><a href="#" class="mobi-menu__link">Контакти</a></li>
+    
+    </ul>
+</nav>
+     <ul class="mobi-menu__contact-list">
+    <li> <a class="mobi-menu__tel-link" href="tel:+380961111111" >+38 096 111 11 11 </a></li> 
+    <li><a class="mobi-menu__mail-link" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
+       
+     </ul>
+
+     <ul class="mobi-menu__social" >
+    <li class="mobi-menu__social-item"><a class="mobi-menu__social-link" href="#">Instagram</a></li>
+    <li class="mobi-menu__social-item"><a class="mobi-menu__social-link" href="#">Twitter</a></li>
+    <li class="mobi-menu__social-item"><a class="mobi-menu__social-link" href="#">Facebook</a></li>
+    <li class="mobi-menu__social-item"><a class="mobi-menu__social-links" href="#">LinkedIn</a></li>
+    </ul>
+     </div>
     </div> 
-</header> -->
+</header>
         <!--Hero-->
 <main>
         <!--section-bisnes и кнопка-->
 
-<!-- <div class="cointeiner">
+<div class="cointeiner cointeiner__service">
  <section class="section-service">
 
 <h1 class="section-service__title">Ефективні рішення для вашого бізнесу</h1>
@@ -111,11 +151,11 @@
     </div>
 </div>
 </section>
-</div> -->
+</div> 
   
 
 <!--Cекція характеристика-->
- <section class="section">
+<section class="section">
    <div class="cointeiner">
 
     <div class="characteristics "></div>
@@ -168,9 +208,9 @@
 </div> 
 
 </div>
-</section>
-        <!-- -Постійні клієнти' -->
-<!-- <section class="section section--developing "> 
+</section> 
+        <!-- -Чим ми займаємося ' -->
+ <section class="section section--developing "> 
   <div class="cointeiner">
     <div class="developing">
 <h2 class="developing__title">Чим ми займаємося</h2>
@@ -194,7 +234,7 @@
 </div>
 
 </div>
-</section>  --> 
+</section> 
         <!--Наша команда-->
 <section class="section section--team">
 <div class="cointeiner">
@@ -203,7 +243,10 @@
     <ul class="team__list">
                 
 <li class="team__item">
-<img class="team__img"  src="./images/people-1.jpg" alt="Работник Игорь" width="270" height="260">
+<img class="team__img" 
+srcset="./images/people-1.jpg 1x , 
+./images/people-1-2x.jpg 2x "
+ src="./images/people-1.jpg" alt="Работник Игорь" width="270" height="260">
 <h3 class="team__name">Ігор Дем'яненко</h3>
 <p lang="en" class="team__text">Product Designer</p>
 <div class="team__div">
@@ -234,7 +277,10 @@
     </div>
 </li>
 
-<li class="team__item"><img class="team__img" src="./images/people-2.jpg" alt="Работник Ольга" width="270" height="260">
+<li class="team__item"><img class="team__img"
+    srcset="./images/people-2.jpg 1x , 
+    ./images/people-2-2x.jpg 2x " 
+    src="./images/people-2.jpg" alt="Работник Ольга" width="270" height="260">
     <h3 class="team__name">Ольга Репіна</h3>
     <p lang="en" class="team__text" >Frontend Developer</p>
     <div class="team__div">
@@ -390,11 +436,11 @@
 </div>
 
 </div>
-</section> 
+</section>
 
 </main>
     <!--Футер-->
-<footer class="footer">
+ <footer class="footer">
     
 <div class="cointeiner footer__cointeiner">
     <div class="cointeiner__address-join">
@@ -459,11 +505,12 @@
     
         </button>
     </form>
-</div> -->
+</div> 
 
 </div> 
-</footer>  -->
+</footer>  
 
-  <script src="./js/modal.js"></script>  
+  <script src="./js/modal.js"></script>
+ 
 </body>
 </html>

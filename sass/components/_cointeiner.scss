@@ -4,7 +4,9 @@
     margin: 0 auto;
     padding: 0 15px;
    
-    
+    &__service {
+        padding: 0;
+    }
     &__address-join {
         @include tablet {
         display: flex;
