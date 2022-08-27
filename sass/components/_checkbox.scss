@@ -6,11 +6,16 @@
         font-family: inherit;
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 8px;
         line-height: 1.67;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.025em;
         color: #757575;
         margin: 20px 0px 31px 0px;
+@include mobile {
+font-size: 12px;
+line-height: 1.67;
+letter-spacing: 0.03em;
+}
 @include desctop{
 margin: 20px 0px 30px 0px;
 padding-left: 12px;
@@ -44,14 +49,20 @@ font-size: 14px;
         font-family: inherit;
         font-style: normal;
         font-weight: 400;
+        font-size: 8px;
+        line-height: 1.67;
+        letter-spacing: 0.025em;
+        color: var(--color-curennt);
+    @include mobile {
         font-size: 12px;
         line-height: 1.67;
         letter-spacing: 0.03em;
-        color: var(--color-curennt);
+
+    }
     @include desctop {
         font-size: 14px;
         line-height: 1.714;
-        }
+         }
     }
 
     &__input:checked+&__labela span {

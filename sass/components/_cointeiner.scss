@@ -1,32 +1,33 @@
 .cointeiner {
     box-sizing: border-box;
-    width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-   
+@include mobile {
+max-width: 480px;
+}
+@include tablet {
+max-width: 768px;
+}
+@include desctop {
+max-width: 1200px;
+}
+
 &__service {
 padding: 0;
-
+@include desctop{
+max-width: 1600px;
     }
-    &__address-join {
-        @include tablet {
-        display: flex;
-        text-align: center;
-        align-items: baseline;
-         }
-   
         }
- 
- @include mobile {
-  max-width: 480px;  
- }   
+    &__address-join {
+    @include tablet {
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    }
    
-@include tablet  {
-    max-width: 768px;}
+    }
+ 
 
-    @include desctop {
-    max-width: 1200px;
-}
 
 }
 
