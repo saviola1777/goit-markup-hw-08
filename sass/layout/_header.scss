@@ -5,6 +5,7 @@
     display: flex;
     padding-left: 15px;
     padding-right: 22px;
+    
     @include mobile {
             max-width: 480px;
             height: 60px;
@@ -12,10 +13,12 @@
     
         @include tablet {
             max-width: 768px;
+            height: 100%;
         }
     
         @include desctop {
             max-width: 1200px;
+            height: 100%;
         }
 }
  

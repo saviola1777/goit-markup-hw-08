@@ -11,8 +11,12 @@
         @include tablet {
         display: flex;
         text-align: center;
+        align-items: baseline;
          }
+    @include desctop{
+    
     }
+        }
  
  @include mobile {
   max-width: 480px;  

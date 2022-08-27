@@ -17,12 +17,14 @@ margin-bottom: 302px;
 }
 &__link {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.175;
     letter-spacing: 0.02em;
-    
     color: #212121;
+    @include mobile {
+        font-size: 40px;
 }
+ }
 &__link--current {
     color: var(--color-curennt);
 }
@@ -31,6 +33,7 @@ margin-bottom: 302px;
     flex-wrap: wrap;
     gap: 32px;
     margin-bottom: 64px;
+   
 }
 
 &__tel-link {
@@ -54,6 +57,7 @@ font-weight: 500;
 &__social {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 // &__social-item {
    

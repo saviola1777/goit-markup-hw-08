@@ -27,16 +27,16 @@
 </nav>
     <ul class="contact">
     
-        <li><a class="contact__link" href="mailto:info@devstudio.com" >
-        <svg class="contact__icon" width="16" height="12">
+        <li class="contact__item"><a class="contact__link" href="mailto:info@devstudio.com" >
+        <svg class="contact__icon-1" width="16" height="12">
         <use href="./images/icons.svg.svg#icon-envelope"></use>
         </svg>
         info@devstudio.com</a>
         </li>
 
-        <li>
+        <li class="contact__item">
         <a class="contact__link" href="tel:+380961111111" >
-        <svg class="contact__icon" width="10" height="16">
+        <svg class="contact__icon-2" width="10" height="16">
         <use href="./images/icons.svg.svg#icon-Vector"></use>
         </svg>
         +38 096 111 11 11 </a>
@@ -142,11 +142,13 @@
 </svg>
 </span>
 Погоджуюся з розсилкою та приймаю<a class="checkbox__link" href="#">Умови договору</a>
+
      </label>
+    <button class="modal-form__button" type="submit" >Відправити</button>
 </div>
 
     </div>
-    <button class="modal-form__button" type="submit" >Відправити</button>
+    
 </form>
     </div>
 </div>
@@ -210,7 +212,7 @@
 </div>
 </section> 
         <!-- -Чим ми займаємося ' -->
- <section class="section section--developing "> 
+ <section class="section section__developing "> 
   <div class="cointeiner">
     <div class="developing">
 <h2 class="developing__title">Чим ми займаємося</h2>
@@ -502,8 +504,7 @@ srcset="./images/people-1.jpg 1x ,
     <svg class="sing-up__icon" width="24" height="24">
     <use href="./images/icons.svg.svg#icon-send" ></use>
     </svg> 
-    
-        </button>
+    </button>
     </form>
 </div> 
 
@@ -511,6 +512,6 @@ srcset="./images/people-1.jpg 1x ,
 </footer>  
 
   <script src="./js/modal.js"></script>
- 
+ <script src="./js/mobile-menu.js"></script>
 </body>
 </html>

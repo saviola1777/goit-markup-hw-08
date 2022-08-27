@@ -1,17 +1,27 @@
 .modal {
+
     position: absolute;
     top: 50%;
     left: 50%;
 
     transform: translate(-50%, -50%);
-    height: 581px;
-    width: 528px;
+    width: 100%;
     background-color: #EEEEEE;
     background: var(--white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     padding: 40px;
     box-sizing: border-box;
+@include mobile {
+    width:450px ;
+    }
+ @include tablet {
+width: 450px;
+}
+@include desctop {
+    width: 528px;
+    height: 581px;
+}
     &__btn {
     position: absolute;
     top: 8px;

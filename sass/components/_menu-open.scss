@@ -9,4 +9,11 @@ background-color:transparent ;
 &__icon {
 width: 24px;
 }
+@include tablet {
+    display: none;
+}
+
+@include desctop {
+    display: none;
+}
 }

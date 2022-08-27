@@ -1,15 +1,21 @@
 .sing-up {
    text-align: center;
+@include desctop {
+    text-align: start;
+    margin-left: auto;
+}
 &__label {
         display: block;
         font-weight: 700;
         font-size: 14px;
-        line-height: 1.14;
+        line-height: 1.143;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--white-color);
         margin-bottom: 20px;
-       
+    // @include desctop {
+    //     display: flex;
+    // }
     }
 
     &__input {
@@ -33,6 +39,10 @@
        @include tablet {
         width: 450px;
        }
+           @include desctop{
+            width: 358px;
+            margin: 0 12px 0 0;
+           }
     }
 
     &__input::placeholder {
@@ -63,7 +73,9 @@
         transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-       
+    @include desctop{
+        display: inline-block;
+    }
     }
 
    &__icon {

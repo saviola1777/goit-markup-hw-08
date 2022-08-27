@@ -1,6 +1,10 @@
 .main {
 &__portfolio {
-    padding-top: 100px;
-    padding-bottom: 114px;
+padding: 60px 0;
+@include desctop {
+padding-top: 100px;
+padding-bottom: 94px;
+    }
 }
+
 }

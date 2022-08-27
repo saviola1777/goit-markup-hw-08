@@ -1,17 +1,25 @@
 
 .modal-form {
+    width: 100%;
+    @include desctop{
     width: 448px;
+    
+    }
 #contact-details-head {
             font-style: normal;
             font-weight: 700;
             font-size: 20px;
-            line-height: 1.15;
+            line-height: 1.5;
             text-align: center;
             letter-spacing: 0.03em;
             color: var(--black-color);
             margin-bottom: 12px;
+    @include desctop {
+        line-height: 1.15;
+    }
         }
 &__labale {
+    text-align: start;
     display: block;
     font-weight: 400;
     font-size: 12px;
