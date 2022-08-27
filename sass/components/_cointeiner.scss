@@ -4,8 +4,9 @@
     margin: 0 auto;
     padding: 0 15px;
    
-    &__service {
-        padding: 0;
+&__service {
+padding: 0;
+
     }
     &__address-join {
         @include tablet {
@@ -13,9 +14,7 @@
         text-align: center;
         align-items: baseline;
          }
-    @include desctop{
-    
-    }
+   
         }
  
  @include mobile {

@@ -460,14 +460,8 @@ a {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-mobile-2x.jpg);
   }
 }
-@media screen and (min-width: 480px) {
-  .section-service {
-    width: 100%;
-  }
-}
 @media screen and (min-width: 768px) {
   .section-service {
-    width: 100%;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-tablet.jpg);
   }
 }
@@ -515,7 +509,7 @@ a {
 @media screen and (min-width: 1200px) {
   .section-service__title {
     font-size: 44px;
-    line-height: 1.36;
+    line-height: 1.3638;
     width: 696px;
   }
 }
