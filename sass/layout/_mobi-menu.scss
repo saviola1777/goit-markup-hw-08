@@ -5,13 +5,20 @@
     height: 100vh;
     top: 0;
     background-color: var(--white-color);
+   
     &__cointeiner {
     padding: 10px 15px 48px 40px;
+    display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        overflow: auto;
+   
     }
 
-&__list  {
-margin-bottom: 302px;
-}
+// &__list  {
+// // margin-bottom: 302px;
+// }
 &__item:not(:last-child){
    margin-bottom: 32px;
 }

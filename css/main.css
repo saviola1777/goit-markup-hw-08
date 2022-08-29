@@ -356,9 +356,11 @@ a {
 }
 .mobi-menu__cointeiner {
   padding: 10px 15px 48px 40px;
-}
-.mobi-menu__list {
-  margin-bottom: 302px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  overflow: auto;
 }
 .mobi-menu__item:not(:last-child) {
   margin-bottom: 32px;

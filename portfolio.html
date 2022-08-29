@@ -54,6 +54,8 @@
     </div>
     <div class="mobi-menu is-hidden">
         <div class="cointeiner mobi-menu__cointeiner">
+         
+        <div class="mobi-menu__tumb">
         <button class="menu-close" type="button">
         <svg class="menu-close__icon-x" width="40" height="40">
         <use href="./images/icons.svg.svg#icon-x"></use>
@@ -69,6 +71,8 @@
     
     </ul>
 </nav>
+</div>
+<div class="mobi-menu__tumba">
      <ul class="mobi-menu__contact-list">
     <li> <a class="mobi-menu__tel-link" href="tel:+380961111111" >+38 096 111 11 11 </a></li> 
     <li><a class="mobi-menu__mail-link" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
@@ -81,6 +85,7 @@
     <li class="mobi-menu__social-item"><a class="mobi-menu__social-link" href="#">Facebook</a></li>
     <li class="mobi-menu__social-item"><a class="mobi-menu__social-links" href="#">LinkedIn</a></li>
     </ul>
+     </div>
      </div>
     </div> 
 </header>
@@ -119,7 +124,15 @@
               
   <li class="cards__item"><a href="#" class="cards__link">
   <div class="cards__thumb">
-  <img class="cards__img" src="./images/img1.jpg" alt="Ноутбук" width="370" height="294"/>
+ <picture>
+    <source srcset="./images/img1-desctop-1x.jpg  1x,
+     ./images/img1-desctop-2x.jpg 2x"media="(min-width: 1200px)"/><source />
+    <source srcset="./images/img1-tablet-1x.jpg    1x,
+    ./images/img1-tablet-2x.jpg  2x"media="(min-width: 768px)"/><source />
+    <source srcset="./images/img1-1x.jpg   1x, 
+    ./images/img1-2x.jpg 2x"media="(max-width: 767px)"/><source />       
+    <img class="team__img" src="./images/img1.jpg" alt="Работник Ольга">
+    </picture>
   <div class="cards__overlay">
   <p class="cards__text-overlay"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
   </div>
@@ -134,7 +147,15 @@
   <li class="cards__item">
   <a href="" class="cards__link">
   <div class="cards__thumb">
-  <img class="cards__img" src="./images/img2.jpg" alt="Два игрока в баскетбол" width="370" height="294" />
+<picture>
+    <source srcset="./images/img2-desctop-1x.jpg  1x,
+     ./images/img2-desctop-2x.jpg 2x"media="(min-width: 1200px)"/><source />
+    <source srcset="./images/img2-tablet-1x.jpg    1x,
+    ./images/img2-tablet-2x.jpg  2x"media="(min-width: 768px)"/><source />
+    <source srcset="./images/img2-1x.jpg   1x, 
+    ./images/img2-2x.jpg 2x"media="(max-width: 767px)"/><source />       
+    <img class="team__img" src="./images/img2.jpg" alt="Работник Ольга">
+    </picture>
   <div class="cards__overlay">
   <p class="cards__text-overlay"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
   </div>
@@ -147,17 +168,20 @@
   </a>
   </li>
 
-              <li class="cards__item">
-                <a href="" class="cards__link">
-                  <div class="cards__thumb">
-                    <img
-                      class="cards__img"
-                      src="./images/img3.jpg"
-                      alt="Логотип ресторана"
-                      width="370"
-                      height="294"
-                    />
-                    <div class="cards__overlay">
+  <li class="cards__item">
+    <a href="" class="cards__link">
+    <div class="cards__thumb">
+    <picture>
+    <source srcset="./images/img3-desctop-1x.jpg  1x,
+     ./images/img3-desctop-2x.jpg 2x"media="(min-width: 1200px)"/><source />
+    <source srcset="./images/img3-tablet-1x.jpg    1x,
+    ./images/img3-tablet-2x.jpg  2x"media="(min-width: 768px)"/><source />
+    <source srcset="./images/img3-1x.jpg   1x, 
+    ./images/img3-2x.jpg 2x"media="(max-width: 767px)"/><source />       
+    <img class="team__img" src="./images/img3.jpg" alt="Работник Ольга">
+    </picture>
+                    
+    <div class="cards__overlay">
                       <p class="cards__text-overlay">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
                         функціоналу та сервісів. Все це дозволить відвідувачу
@@ -176,13 +200,15 @@
               <li class="cards__item">
                 <a href="" class="cards__link">
                   <div class="cards__thumb">
-                    <img
-                      class="img-portfolio"
-                      src="./images/img4.jpg"
-                      alt="Наушники"
-                      width="370"
-                      height="294"
-                    />
+                    <picture>
+    <source srcset="./images/img4-desctop-1x.jpg  1x,
+     ./images/img4-desctop-2x.jpg 2x"media="(min-width: 1200px)"/><source />
+    <source srcset="./images/img4-tablet-1x.jpg    1x,
+    ./images/img4-tablet-2x.jpg  2x"media="(min-width: 768px)"/><source />
+    <source srcset="./images/img4-1x.jpg   1x, 
+    ./images/img4-2x.jpg 2x"media="(max-width: 767px)"/><source />       
+    <img class="team__img" src="./images/img4.jpg" alt="Работник Ольга">
+    </picture>
                     <div class="cards__overlay">
                       <p class="cards__text-overlay">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -202,13 +228,15 @@
               <li class="cards__item">
                 <a href="" class="cards__link">
                   <div class="cards__thumb">
-                    <img
-                      class="img-portfolio"
-                      src="./images/img5.jpg"
-                      alt="Две коробки"
-                      width="370"
-                      height="294"
-                    />
+                   <picture>
+    <source srcset="./images/img5-desctop-1x.jpg  1x,
+     ./images/img5-desctop-2x.jpg 2x"media="(min-width: 1200px)"/><source />
+    <source srcset="./images/img5-tablet-1x.jpg    1x,
+    ./images/img5-tablet-2x.jpg  2x"media="(min-width: 768px)"/><source />
+    <source srcset="./images/img5-1x.jpg   1x, 
+    ./images/img5-2x.jpg 2x"media="(max-width: 767px)"/><source />       
+    <img class="team__img" src="./images/img5.jpg" alt="Работник Ольга">
+    </picture>
                     <div class="cards__overlay">
                       <p class="cards__text-overlay">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -228,13 +256,15 @@
               <li class="cards__item">
                 <a href="" class="cards__link">
                   <div class="cards__thumb">
-                    <img
-                      class="img-portfolio"
-                      src="./images/img6.jpg"
-                      alt="Екран монитора"
-                      width="370"
-                      height="294"
-                    />
+                    <picture>
+    <source srcset="./images/img6-desctop-1x.jpg  1x,
+     ./images/img6-desctop-2x.jpg 2x"media="(min-width: 1200px)"/><source />
+    <source srcset="./images/img6-tablet-1x.jpg    1x,
+    ./images/img6-tablet-2x.jpg  2x"media="(min-width: 768px)"/><source />
+    <source srcset="./images/img6-1x.jpg   1x, 
+    ./images/img6-2x.jpg 2x"media="(max-width: 767px)"/><source />       
+    <img class="team__img" src="./images/img6.jpg" alt="Работник Ольга">
+    </picture>
                     <div class="cards__overlay">
                       <p class="cards__text-overlay">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -254,13 +284,15 @@
               <li class="cards__item">
                 <a href="" class="cards__link">
                   <div class="cards__thumb">
-                    <img
-                      class="img-portfolio"
-                      src="./images/img7.jpg"
-                      alt="Книга"
-                      width="370"
-                      height="294"
-                    />
+   <picture>
+    <source srcset="./images/img7-desctop-1x.jpg  1x,
+     ./images/img7-desctop-2x.jpg 2x"media="(min-width: 1200px)"/><source />
+    <source srcset="./images/img7-tablet-1x.jpg    1x,
+    ./images/img7-tablet-2x.jpg  2x"media="(min-width: 768px)"/><source />
+    <source srcset="./images/img7-1x.jpg   1x, 
+    ./images/img7-2x.jpg 2x"media="(max-width: 767px)"/><source />       
+    <img class="team__img" src="./images/img7.jpg" alt="Работник Ольга">
+    </picture>
                     <div class="cards__overlay">
                       <p class="cards__text-overlay">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -280,13 +312,15 @@
               <li class="cards__item">
                 <a href="" class="cards__link">
                   <div class="cards__thumb">
-                    <img
-                      class="img-portfolio"
-                      src="./images/img8.jpg"
-                      alt="Бейдж"
-                      width="370"
-                      height="294"
-                    />
+  <picture>
+    <source srcset="./images/img8-desctop-1x.jpg  1x,
+     ./images/img8-desctop-2x.jpg 2x"media="(min-width: 1200px)"/><source />
+    <source srcset="./images/img8-tablet-1x.jpg    1x,
+    ./images/img8-tablet-2x.jpg  2x"media="(min-width: 768px)"/><source />
+    <source srcset="./images/img8-1x.jpg   1x, 
+    ./images/img8-2x.jpg 2x"media="(max-width: 767px)"/><source />       
+    <img class="team__img" src="./images/img8.jpg" alt="Работник Ольга">
+    </picture>
                     <div class="cards__overlay">
                       <p class="cards__text-overlay">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -306,13 +340,15 @@
               <li class="cards__item">
                 <a href="" class="cards__link">
                   <div class="cards__thumb">
-                    <img
-                      class="img-portfolio"
-                      src="./images/img9.jpg"
-                      alt="Работа на ноутбуке"
-                      width="370"
-                      height="294"
-                    />
+<picture>
+    <source srcset="./images/img9-desctop-1x.jpg  1x,
+     ./images/img9-desctop-2x.jpg 2x"media="(min-width: 1200px)"/><source />
+    <source srcset="./images/img9-tablet-1x.jpg    1x,
+    ./images/img9-tablet-2x.jpg  2x"media="(min-width: 768px)"/><source />
+    <source srcset="./images/img9-1x.jpg   1x, 
+    ./images/img9-2x.jpg 2x"media="(max-width: 767px)"/><source />       
+    <img class="team__img" src="./images/img9.jpg" alt="Работник Ольга">
+    </picture>
                     <div class="cards__overlay">
                       <p class="cards__text-overlay">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
